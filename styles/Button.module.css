@@ -1,0 +1,20 @@
+/* styles/Button.module.css */
+
+.button {
+    background-color: transparent;
+    background-image: linear-gradient(to right, #094d7b, #092649);
+    height: 60px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-image 0.3s ease, width 0.3s ease, height 0.3s ease;
+  }
+  
+  .button:hover {
+    background-image: linear-gradient(to left, #094d7b, #092649);
+  }
+  
+
+
